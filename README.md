@@ -13,7 +13,7 @@ Shows cava, btop, tty clock, and pipes.
 <img src="assets/purple.png" width="1920" height="1080"/>
 <img src="assets/orange.png" width="1920" height="1080"/>
 <img src="assets/red.png" width="1920" height="1080"/>
-(colors automatically sync with your wallpaper)
+(colors sync with your wallpaper)
 
 # Credits
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
