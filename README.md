@@ -4,11 +4,7 @@ You shouldn't use this as it's not the "nicest" setup, however i like this alot,
 
 # Installation
 Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/UserKeybinds.conf** for keybinds
-Clone the git and copy the files into ~/.config/
-
-# Credits
-╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
-╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the Waybar configuration.
+Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (hyprctl monitors)
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
@@ -18,3 +14,7 @@ Shows cava, btop, tty clock, and pipes.
 <img src="assets/orange.png" width="1920" height="1080"/>
 <img src="assets/red.png" width="1920" height="1080"/>
 (colors automatically sync with your wallpaper)
+
+# Credits
+╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
+╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the Waybar configuration.
