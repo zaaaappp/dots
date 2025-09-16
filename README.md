@@ -1,6 +1,7 @@
 # Dotfiles
 My hyprland dots (mix of jakoolit and binnewbs) to restore on a new system
 You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places therefore i've decided not to post them.
+Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/UserKeybinds.conf** for keybinds
 
 # Credits
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
