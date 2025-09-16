@@ -1,10 +1,10 @@
 # Dotfiles
-My hyprland dots (mix of jakoolit and binnewbs) to restore on a new system
+My hyprland dots (mix of JaKooLit and binnewbs) for me to restore on a new system
 You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places therefore i've decided not to post them.
 
 # Installation
 Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/UserKeybinds.conf** for keybinds
-Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (hyprctl monitors)
+Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (list monitors with hyprctl monitors)
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
