@@ -11,6 +11,7 @@ Clone the git and copy the files into ~/.config/
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the Waybar configuration.
 
 # Pictures
+Shows cava, btop, tty clock, and pipes.
 <img src="assets/blue.png" width="1920" height="1080"/>
 <img src="assets/green.png" width="1920" height="1080"/>
 <img src="assets/purple.png" width="1920" height="1080"/>
