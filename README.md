@@ -7,3 +7,8 @@ You shouldn't use this as it's not the "nicest" setup, however i like this alot,
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the Waybar configuration.
 
 <img src="assets/blue.png" width="600"/>
+<img src="assets/green.png" width="600"/>
+<img src="assets/purple.png" width="600"/>
+<img src="assets/orange.png" width="600"/>
+<img src="assets/red.png" width="600"/>
+(colors automatically sync with your wallpaper)
