@@ -16,7 +16,9 @@ systemctl enable sddm.service
 chsh -s $(which zsh)
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
-
+sudo cp -r dots/zsh/.zshrc ~/
+sudo cp -r dots/zsh/.p10k.zsh ~/
+sudo cp -r dots/vim/.vimrc ~/
 ```
 
 # Configuration
