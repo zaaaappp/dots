@@ -20,6 +20,7 @@ sudo cp -r dots/zsh/.zshrc ~/
 sudo cp -r dots/zsh/.p10k.zsh ~/
 sudo cp -r dots/vim/.vimrc ~/
 sudo cp -r dots/assets/wallpapers ~/Pictures/wallpapers/
+sudo cp -r dots/assets/windows-cursor /usr/share/icons/
 mkdir -p ~/Pictures/wallpapers/
 ```
 
