@@ -1,17 +1,19 @@
 #!/bin/bash
 
-sudo pacman -S --noconfirm zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
+echo "--- Setting up yay ---"
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
 cd ..
+echo "--- Installing packages ---"
+sudo pacman -S --noconfirm zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
 yay -S --noconfirm otf-minecraft
+echo "--- Setting up dots ---"
 systemctl enable sddm.service
 chsh -s $(which zsh)
-git clone https://github.com/zaaaappp/dots.git
-sudo cp -r dots/.config/* ~/.config/
-sudo cp -r dots/zsh/* ~/
-sudo cp -r dots/vim/.vimrc ~/
+sudo cp -r .config/* ~/.config/
+sudo cp -r zsh/* ~/
+sudo cp -r vim/.vimrc ~/
 mkdir -p ~/Pictures/wallpapers/
-sudo cp -r dots/assets/wallpapers ~/Pictures/
-sudo cp -r dots/assets/windows-cursor /usr/share/icons/
+sudo cp -r assets/wallpapers ~/Pictures/
+sudo cp -r assets/windows-cursor /usr/share/icons/
