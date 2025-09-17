@@ -1,5 +1,5 @@
 # Dotfiles
-My hyprland dots (mix of JaKooLit and binnewbs) for me to restore on a new system
+My hyprland dots (mix of JaKooLit, HyDE and binnewbs) for me to restore on a new system
 You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places. 
 
 # Installation
