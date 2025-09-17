@@ -17,7 +17,8 @@ systemctl enable sddm.service
 chsh -s $(which zsh)
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/* ~/.config/
-sudo cp -r dots/zsh/* ~/
+sudo cp -r dots/zsh/.zshrc ~/
+sudo cp -r dots/zsh/.p10k.zsh ~/
 sudo cp -r dots/vim/.vimrc ~/
 mkdir -p ~/Pictures/wallpapers/
 sudo cp -r dots/assets/wallpapers ~/Pictures/wallpapers/
