@@ -4,17 +4,19 @@ You shouldn't use this as it's not the "nicest" setup, however i like this alot,
 
 # Installation
 
-To install, run the commands below
+To install, run the commands below (No installer)
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
+sudo pacman -S zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 systemctl enable sddm.service
+chsh -s $(which zsh)
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
+
 ```
 
 # Configuration
