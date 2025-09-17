@@ -49,3 +49,4 @@ Shows cava, btop, tty clock, and pipes.
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
 ╺╸[HyDE](https://github.com/Hyde-project/hyde) for some animations.
+(nearly all the files in this repo are not mine)
