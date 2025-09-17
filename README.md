@@ -14,7 +14,7 @@ sudo pacman -S hyprland rofi-wayland swww kitty waybar cliphist playerctl pavuco
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
 ```
-If you are on a NVidia gpu, make sure you've [configured]([https://github.com/JaKooLit/Hyprland-Dots](https://wiki.hypr.land/Nvidia/)) it correctly.
+If you are on a NVidia gpu, make sure you've [configured](https://wiki.hypr.land/Nvidia/) it correctly.
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
