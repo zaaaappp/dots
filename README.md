@@ -8,7 +8,11 @@ To install, run the commands below
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
+sudo pacman -S sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+systemctl enable sddm.service
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
 ```
@@ -16,10 +20,15 @@ sudo cp -r dots/.config/ ~/.config/
 # Configuration
 If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land/Nvidia/) hyprland correctly.
 
-Otherwise please edit **~/.config/hypr/hyprland.conf**, and comment out/remove "**env = LIBVA_DRIVER_NAME,nvidia**" and 
-"**env = __GLX_VENDOR_LIBRARY_NAME,nvidia**" near the top of the file
+Otherwise please edit "~/.config/hypr/hyprland.conf", and comment out/remove
+"env = LIBVA_DRIVER_NAME,nvidia" and 
+"env = __GLX_VENDOR_LIBRARY_NAME,nvidia" near the top of the file
 
-Next up, edit **~/.config/monitors.conf** and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), Now you can read the keybinds in **~/.config/hypr/configs/Keybinds.conf** and in **~/.config/hypr/UserConfigs/UserKeybinds.conf**
+Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in ~/.config/monitors.conf and adjust it to your monitors.
+If you want the wallpaper picker to work, **mkdir -p ~/Pictures/wallpapers**,
+
+To set up your wallpaper, simply open kitty and type **swww img /path/**
+
 
 
 # Pictures
@@ -34,4 +43,5 @@ Shows cava, btop, tty clock, and pipes.
 
 # Credits
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
-╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.
+╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
+╺╸[HyDE](https://github.com/Hyde-project/hyde) for some animations.
