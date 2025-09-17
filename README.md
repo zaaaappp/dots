@@ -12,6 +12,7 @@ sudo pacman -S zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerc
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+yay -S otf-minecraft
 systemctl enable sddm.service
 chsh -s $(which zsh)
 git clone https://github.com/zaaaappp/dots.git
