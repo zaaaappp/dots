@@ -15,8 +15,8 @@ git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
 ```
 If you are on a NVidia gpu, make sure you've [configured](https://wiki.hypr.land/Nvidia/) it correctly.
-Otherwise please edit **~/.config/hypr/hyprland.conf**, and comment out/remove "env = LIBVA_DRIVER_NAME,nvidia" And 
-"env = __GLX_VENDOR_LIBRARY_NAME,nvidia"
+Otherwise please edit **~/.config/hypr/hyprland.conf**, and comment out/remove **env = LIBVA_DRIVER_NAME,nvidia** And 
+**env = __GLX_VENDOR_LIBRARY_NAME,nvidia** near the top of the file
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
