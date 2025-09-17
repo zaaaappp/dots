@@ -8,21 +8,11 @@ To install, run the commands below (No installer)
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts fastfetch
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-yay -S otf-minecraft
-systemctl enable sddm.service
-chsh -s $(which zsh)
 git clone https://github.com/zaaaappp/dots.git
-sudo cp -r dots/.config/* ~/.config/
-sudo cp -r dots/zsh/.zshrc ~/
-sudo cp -r dots/zsh/.p10k.zsh ~/
-sudo cp -r dots/vim/.vimrc ~/
-mkdir -p ~/Pictures/wallpapers/
-sudo cp -r dots/assets/wallpapers ~/Pictures/wallpapers/
-sudo cp -r dots/assets/windows-cursor /usr/share/icons/
+cd dots
+chmod +x install.sh
+
+./install.sh
 ```
 
 # Configuration
