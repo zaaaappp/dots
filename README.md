@@ -7,6 +7,7 @@ Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/U
 Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (list monitors with hyprctl monitors)
 
 To install, run the commands below
+
 WARNING: This will replace your current configuration
 ```shell
 sudo pacman -S rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
