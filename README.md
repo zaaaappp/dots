@@ -5,8 +5,12 @@ You shouldn't use this as it's not the "nicest" setup, however i like this alot,
 # Installation
 Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/UserKeybinds.conf** for keybinds
 Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (list monitors with hyprctl monitors)
+
+To install, run the commands below
 ```shell
 sudo pacman -S rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
+git clone https://github.com/zaaaappp/dots.git
+sudo cp -r dots/.config/ ~/.config/
 ```
 
 # Pictures
