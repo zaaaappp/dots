@@ -33,3 +33,9 @@ echo ""
 echo "--- Installation has finished
 echo "Installation has successfully finished."
 echo "Restarting in 3 seconds"
+sleep 1
+echo "Restarting in 2 seconds"
+sleep 1
+echo "Restarting in 1 second"
+sleep 1
+sudo reboot now
