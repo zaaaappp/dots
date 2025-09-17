@@ -8,7 +8,7 @@ To install, run the commands below (No installer)
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
+sudo pacman -S zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts fastfetch
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
