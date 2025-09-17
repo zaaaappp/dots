@@ -23,6 +23,7 @@ Otherwise please edit "~/.config/hypr/hyprland.conf", and comment out/remove
 "env = __GLX_VENDOR_LIBRARY_NAME,nvidia" near the top of the file
 
 Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in ~/.config/monitors.conf and adjust it to your monitors.
+If you want the wallpaper picker to work, **mkdir ~/Pictures/wallpapers**,
 
 
 
