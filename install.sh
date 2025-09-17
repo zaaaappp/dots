@@ -12,7 +12,8 @@ echo "--- Setting up dots ---"
 systemctl enable sddm.service
 chsh -s $(which zsh)
 sudo cp -r .config/* ~/.config/
-sudo cp -r zsh/* ~/
+sudo cp -r zsh/.zshrc ~/
+sudo cp -r zsh/.p10k.zsh ~/
 sudo cp -r vim/.vimrc ~/
 mkdir -p ~/Pictures/wallpapers/
 sudo cp -r assets/wallpapers ~/Pictures/
