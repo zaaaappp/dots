@@ -12,12 +12,15 @@ sudo pacman -S hyprland rofi-wayland swww kitty waybar cliphist playerctl pavuco
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
 ```
+
+# Configuration
 If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land/Nvidia/) it correctly.
 
-Otherwise please edit "**~/.config/hypr/hyprland.conf**", and comment out/remove "**env = LIBVA_DRIVER_NAME,nvidia**" and 
+Otherwise please edit **~/.config/hypr/hyprland.conf**, and comment out/remove "**env = LIBVA_DRIVER_NAME,nvidia**" and 
 "**env = __GLX_VENDOR_LIBRARY_NAME,nvidia**" near the top of the file
 
-Next up, edit **~/.config/monitors.conf** and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/)
+Next up, edit **~/.config/monitors.conf** and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), Now you can read the keybinds in **~/.config/hypr/configs/Keybinds.conf** and in **~/.config/hypr/UserConfigs/UserKeybinds.conf**
+
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
