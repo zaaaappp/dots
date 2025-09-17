@@ -1,5 +1,5 @@
 # Dotfiles
-My hyprland dots (mix of JaKooLit and binnewbs) for me to restore on a new system
+My hyprland dots (mix of JaKooLit, HyDE and binnewbs) for me to restore on a new system
 You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places. 
 
 # Installation
@@ -48,4 +48,5 @@ Shows cava, btop, tty clock, and pipes.
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
 ╺╸[HyDE](https://github.com/Hyde-project/hyde) for some animations.  
+╺╸[Gnome-look](https://www.gnome-look.org/browse/) for the cursor.  
 (nearly all the files in this repo are not mine)
