@@ -19,6 +19,8 @@ sudo cp -r dots/.config/ ~/.config/
 sudo cp -r dots/zsh/.zshrc ~/
 sudo cp -r dots/zsh/.p10k.zsh ~/
 sudo cp -r dots/vim/.vimrc ~/
+sudo cp -r dots/assets/wallpapers ~/Pictures/wallpapers/
+mkdir -p ~/Pictures/wallpapers/
 ```
 
 # Configuration
@@ -28,11 +30,8 @@ Otherwise please edit "~/.config/hypr/hyprland.conf", and comment out/remove
 "env = LIBVA_DRIVER_NAME,nvidia" and 
 "env = __GLX_VENDOR_LIBRARY_NAME,nvidia" near the top of the file
 
+Set a wallpaper using the wallpaper switcher, SUPER CTRL + D.
 Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in ~/.config/monitors.conf and adjust it to your monitors.
-If you want the wallpaper picker to work, **mkdir -p ~/Pictures/wallpapers**,
-
-To set up your wallpaper, simply open kitty and type **swww img /path/**
-
 
 
 # Pictures
