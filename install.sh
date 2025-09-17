@@ -13,7 +13,7 @@ echo ""
 echo "--- Installing packages"
 echo ""
 sleep 1
-sudo pacman -S --noconfirm gparted zsh lxappearance sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts lsd fastfetch swaync thunar cava btop bc
+sudo pacman -S --noconfirm wlogout gparted zsh lxappearance sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts lsd fastfetch swaync thunar cava btop bc
 yay -S --noconfirm otf-minecraft
 yay -S --noconfirm matugen-bin
 yay -S --noconfirm brave-bin
