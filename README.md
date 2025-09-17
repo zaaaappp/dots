@@ -27,6 +27,8 @@ Otherwise please edit "~/.config/hypr/hyprland.conf", and comment out/remove
 Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in ~/.config/monitors.conf and adjust it to your monitors.
 If you want the wallpaper picker to work, **mkdir -p ~/Pictures/wallpapers**,
 
+To set up your wallpaper, simply open kitty and type **swww img /path/**
+
 
 
 # Pictures
