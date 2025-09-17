@@ -1,6 +1,6 @@
 # Dotfiles
 My hyprland dots (mix of JaKooLit and binnewbs) for me to restore on a new system
-You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places therefore i've decided not to post them.
+You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places. 
 
 # Installation
 
