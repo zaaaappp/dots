@@ -11,7 +11,6 @@ WARNING: This will replace your current configuration
 git clone https://github.com/zaaaappp/dots.git
 cd dots
 chmod +x install.sh
-
 ./install.sh
 ```
 
