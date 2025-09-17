@@ -10,10 +10,11 @@ To install, run the commands below
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
+sudo pacman -S hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
 ```
+If you are on a NVidia gpu, make sure you've [configured]([https://github.com/JaKooLit/Hyprland-Dots](https://wiki.hypr.land/Nvidia/)) it correctly.
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
