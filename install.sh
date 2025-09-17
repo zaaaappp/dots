@@ -6,7 +6,7 @@ cd yay
 makepkg -si --noconfirm
 cd ..
 echo "--- Installing packages ---"
-sudo pacman -S --noconfirm zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts
+sudo pacman -S --noconfirm zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts lsd
 yay -S --noconfirm otf-minecraft
 echo "--- Setting up dots ---"
 systemctl enable sddm.service
