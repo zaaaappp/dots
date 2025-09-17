@@ -18,6 +18,7 @@ If you are on a NVidia gpu, make sure you've [configured](https://wiki.hypr.land
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
+
 <img src="assets/blue.png" width="1920" height="1080"/>
 <img src="assets/green.png" width="1920" height="1080"/>
 <img src="assets/purple.png" width="1920" height="1080"/>
