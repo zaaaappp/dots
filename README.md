@@ -8,9 +8,11 @@ To install, run the commands below
 
 WARNING: This will replace your current configuration
 ```shell
-sudo pacman -S hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
+sudo pacman -S sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland
+systemctl enable sddm.service
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
+sudo reboot now
 ```
 
 # Configuration
