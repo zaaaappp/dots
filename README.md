@@ -14,7 +14,7 @@ sudo cp -r dots/.config/ ~/.config/
 ```
 
 # Configuration
-If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land/Nvidia/) it correctly.
+If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land/Nvidia/) hyprland correctly.
 
 Otherwise please edit **~/.config/hypr/hyprland.conf**, and comment out/remove "**env = LIBVA_DRIVER_NAME,nvidia**" and 
 "**env = __GLX_VENDOR_LIBRARY_NAME,nvidia**" near the top of the file
