@@ -8,6 +8,7 @@ To install, run the commands below (No installer)
 
 WARNING: This will replace your current configuration
 ```shell
+sudo pacman -S git
 git clone https://github.com/zaaaappp/dots.git
 cd dots
 chmod +x install.sh
