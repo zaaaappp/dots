@@ -16,6 +16,7 @@ sleep 1
 sudo pacman -S --noconfirm zsh sddm hyprland rofi-wayland swww kitty waybar cliphist playerctl pavucontrol wl-clipboard xdg-desktop-portal-hyprland git vim noto-fonts base-devel nerd-fonts lsd fastfetch swaync thunar cava btop
 yay -S --noconfirm otf-minecraft
 yay -S --noconfirm matugen-bin
+yay -S --noconfirm brave-bin
 echo ""
 echo "--- Setting up dots"
 echo ""
