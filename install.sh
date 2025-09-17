@@ -31,8 +31,7 @@ sudo cp -r vim/.vimrc ~/
 mkdir -p ~/Pictures/wallpapers/
 sudo cp -r assets/wallpapers ~/Pictures/
 sudo cp -r assets/windows-cursor /usr/share/icons/
-swww img ~/Pictures/wallpapers/941959.png
-matugen image ~/Pictures/wallpapers/941959.png
+sudo matugen image ~/Pictures/wallpapers/941959.png
 echo ""
 echo "--- Installation has finished"
 echo "Installation has successfully finished."
