@@ -19,7 +19,7 @@ If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land
 Otherwise please edit "~/.config/hypr/hyprland.conf", and comment out/remove "env = LIBVA_DRIVER_NAME,nvidia" and 
 "env = __GLX_VENDOR_LIBRARY_NAME,nvidia" near the top of the file
 
-Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in "~/.config/hypr/configs/Keybinds.conf" and in "~/.config/hypr/UserConfigs/UserKeybinds.conf"
+Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in "~/.config/hypr/configs/Keybinds.conf" and in ~/.config/hypr/UserConfigs/UserKeybinds.conf"
 
 
 # Pictures
