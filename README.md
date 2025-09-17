@@ -3,9 +3,6 @@ My hyprland dots (mix of JaKooLit and binnewbs) for me to restore on a new syste
 You shouldn't use this as it's not the "nicest" setup, however i like this alot, wallpapers were gathered from various places therefore i've decided not to post them.
 
 # Installation
-Read **~/.config/hypr/configs/Keybinds.conf** and **~/.config/hypr/UserConfigs/UserKeybinds.conf** for keybinds
-
-Clone the git and copy the files into **~/.config/**, then edit **~.config/hyprland.conf** and adjust it to your monitors (list monitors with hyprctl monitors)
 
 To install, run the commands below
 
@@ -19,6 +16,8 @@ If you are on a Nvidia GPU, make sure you've [configured](https://wiki.hypr.land
 
 Otherwise please edit "**~/.config/hypr/hyprland.conf**", and comment out/remove "**env = LIBVA_DRIVER_NAME,nvidia**" and 
 "**env = __GLX_VENDOR_LIBRARY_NAME,nvidia**" near the top of the file
+
+Next up, edit **~/.config/monitors.conf** and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/)
 
 # Pictures
 Shows cava, btop, tty clock, and pipes.
