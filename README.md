@@ -15,7 +15,6 @@ makepkg -si
 systemctl enable sddm.service
 git clone https://github.com/zaaaappp/dots.git
 sudo cp -r dots/.config/ ~/.config/
-sudo reboot now
 ```
 
 # Configuration
