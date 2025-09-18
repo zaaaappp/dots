@@ -24,17 +24,6 @@ Otherwise edit "~/.config/hypr/hyprland.conf", and comment out/remove
 Set a wallpaper using the wallpaper switcher, SUPER CTRL + D.
 Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https://wiki.hypr.land/Configuring/Monitors/), You can access the keybinds in ~/.config/monitors.conf and adjust it to your monitors.
 
-
-# Pictures
-Shows cava, btop, tty clock, and pipes.
-
-<img src="assets/blue.png" width="1920" height="1080"/>
-<img src="assets/green.png" width="1920" height="1080"/>
-<img src="assets/purple.png" width="1920" height="1080"/>
-<img src="assets/orange.png" width="1920" height="1080"/>
-<img src="assets/red.png" width="1920" height="1080"/>
-(colors sync with your wallpaper)
-
 # Credits
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
