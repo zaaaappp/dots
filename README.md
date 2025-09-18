@@ -29,4 +29,4 @@ Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https:/
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
 ╺╸[HyDE](https://github.com/Hyde-project/hyde) for some animations.  
 ╺╸[Gnome-look](https://www.gnome-look.org/browse/) for the cursor.  
-(nearly all the files in this repo are not mine)
+(almost all the files in this repo are not mine)
