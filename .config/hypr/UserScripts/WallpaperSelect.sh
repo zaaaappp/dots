@@ -135,6 +135,8 @@ apply_image_wallpaper() {
   fi
 
 #  matugen image $image_path
+  wal -i $image_path -e -s
+  pywal-discord -p ~/.config/vesktop/themes/ -t abou
   swww img "$image_path" $SWWW_PARAMS
   matugen image $image_path
   pkill -USR1 cava
