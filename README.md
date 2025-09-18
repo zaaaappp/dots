@@ -4,7 +4,7 @@ You shouldn't use this as it's not the "nicest" setup, however i like this alot,
 
 # Installation
 
-To install, run the commands below (No installer)
+To install, run the commands below
 
 WARNING: This will replace your current configuration
 ```shell
