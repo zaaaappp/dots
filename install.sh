@@ -30,6 +30,7 @@ sudo cp -r zsh/powerlevel10k ~/
 sudo cp -r vim/.vimrc ~/
 mkdir -p ~/Pictures/wallpapers/
 sudo cp -r assets/wallpapers ~/Pictures/
+sudo cp -r assets/lock_sbc.sh ~/
 sudo cp -r assets/windows-cursor /usr/share/icons/
 sudo matugen image ~/Pictures/wallpapers/941959.png
 echo ""
