@@ -27,6 +27,6 @@ Next up, edit "~/.config/monitors.conf" and adjust it to your [monitors](https:/
 # Credits
 ╺╸[JaKooLit](https://github.com/JaKooLit/Hyprland-Dots) for most of the files.  
 ╺╸[Binnewbs](https://github.com/binnewbs/arch-hyprland) for the waybar configuration.  
-╺╸[HyDE](https://github.com/Hyde-project/hyde) for some animations.  
+╺╸[ML4W]([https://github.com/Hyde-project/hyde](https://www.ml4w.com/)) for some animations.  
 ╺╸[Gnome-look](https://www.gnome-look.org/browse/) for the cursor.  
 (almost all the files in this repo are not mine)
