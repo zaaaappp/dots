@@ -140,6 +140,7 @@ apply_image_wallpaper() {
   wal -i $image_path -e -s
   pywal-discord -p ~/.config/vesktop/themes/ -t abou
   pkill -USR1 cava
+  cp -r "$image_path" "$HOME/.config/hypr/.wallpaper_current"
   "$SCRIPTSDIR/Refresh.sh"
 
   # Run additional scripts

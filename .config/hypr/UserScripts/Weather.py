@@ -132,11 +132,7 @@ out_data = {
 print(json.dumps(out_data))
 
 simple_weather = (
-    f"{icon}  {status}\n"
     + f"  {temp} ({temp_feel_text})\n"
-    + f"{wind_text} \n"
-    + f"{humidity_text} \n"
-    + f"{visibility_text} AQI{air_quality_index}\n"
 )
 
 try:
