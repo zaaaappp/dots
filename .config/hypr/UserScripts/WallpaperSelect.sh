@@ -135,16 +135,15 @@ apply_image_wallpaper() {
   fi
 
 #  matugen image $image_path
-  wal -i $image_path -e -s
-  pywal-discord -p ~/.config/vesktop/themes/ -t abou
   swww img "$image_path" $SWWW_PARAMS
   matugen image $image_path
+  wal -i $image_path -e -s
+  pywal-discord -p ~/.config/vesktop/themes/ -t abou
   pkill -USR1 cava
+  "$SCRIPTSDIR/Refresh.sh"
 
   # Run additional scripts
   "$SCRIPTSDIR/WallustSwww.sh"
-  sleep 2
-  "$SCRIPTSDIR/Refresh.sh"
   sleep 1
 
   set_sddm_wallpaper
