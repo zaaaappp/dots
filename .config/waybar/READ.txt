@@ -1,1 +1,0 @@
-Waybar needs otf-minecraft from the AUR for the fonts to work, and may need some other dependencies (i forgot which)

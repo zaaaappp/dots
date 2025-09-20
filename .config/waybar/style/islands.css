@@ -2,9 +2,11 @@
 
 
 * {
-	font-family: "Minecraft"; /* JetBrainsMono Nerd Font Propo */
-	font-weight: normal; /* bold */
+	font-family: "sf-pro"; /* JetBrainsMono Nerd Font Propo */
+	font-weight: bold; /* bold */
 	min-height: 0;
+        padding: 0;
+        margin: 0;
 	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
 	font-size: 98%;
 	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
@@ -29,14 +31,14 @@ tooltip label{
 }
 /*-----module groups----*/
 .modules-right {
-	/*background-color: rgba(0,0,0,0.5);*/
+	/*background-color: rgba(0,0,0,1);*/
 	color: @secondary;
 /*	border-bottom: 0px;
 	border-style: solid;
 	border-color: white;
 	border-radius: 20px;*/
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 0px;
+	padding-bottom: 4px;
 	padding-right: 4px;
 	padding-left: 4px;
 }
@@ -47,8 +49,8 @@ tooltip label{
 	border-style: solid;
 	border-color: white;
 	border-radius: 20px;*/
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 0px;
+	padding-bottom: 4px;
 	padding-right: 4px;
 	padding-left: 4px;
 }
@@ -59,8 +61,8 @@ tooltip label{
 	border-style: solid;
 	border-color: white;
 	border-radius: 20px;*/
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 0px;
+	padding-bottom: 4px;
 	padding-right: 4px;
 	padding-left: 4px;
 }
@@ -167,21 +169,22 @@ tooltip label{
 #custom-weather.clearNight,
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight,
-#custom-weather.default, 
+#custom-weather.default,
 #custom-weather.rainyDay,
 #custom-weather.rainyNight,
 #custom-weather.severe,
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-  background-color: alpha(@surface_container, 0.75);
- /* border: 1px solid @surface_container; */
+  background-color: alpha(@surface_container, 1);
+ /* border: 1.7px solid @primary; */
   border-radius: 20px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin: 0 0 0 5px;
+        outline-offset: 2px;
 }
 /*-----Indicators----*/
 #custom-hypridle.notactive,
